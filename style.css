@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'neurimboGothicRegular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/neurimboGothicRegular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'neurimboGothicRegular';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  h1 {
+    font-family: 'neurimboGothicRegular';
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  p {
+    font-family: 'neurimboGothicRegular';
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  div {
+    font-family: 'neurimboGothicRegular';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0;
+  }
+  
+  div > * {
+    margin: 0.5rem 0;
+  }
+  
+  button {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  img {
+    width: 50%;
+    height: auto;
+    border-radius: 0.5rem;
+  }
